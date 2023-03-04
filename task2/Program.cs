@@ -4,7 +4,7 @@
 // координат точек в этой четверти (x и y).
 
 
-Console.WriteLine();
+Console.WriteLine("Введите число от 1 - 4: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
 switch(a)
@@ -12,21 +12,24 @@ switch(a)
     case 1:
     Console.WriteLine("Диапазон от 0 до 90 градусов (x - положительный, Y - положительный)");
     break;
-}
-{
-    case 2:
-    Console.WriteLine("Диапазон от 90 до 180 градусов");
-    break:
-}
-{
-    case 3:
-    Console.WriteLine("Диапазон от 180 до 270 градусов");
-    break:
-}
-{
-    case 4:
-    Console.WriteLine("Диапазон от 270 до 360 градусов");
-    break:
 
-    сW вы ввели не верное число
+
+    case 2:
+    Console.WriteLine("Диапазон от 90 до 180 градусов (x - положительный, Y - отрицательный)");
+    break;
+
+
+    case 3:
+    Console.WriteLine("Диапазон от 180 до 270 градусов (x - отрицательный, Y - отрицательный)");
+    break;
+
+
+    case 4:
+    Console.WriteLine("Диапазон от 270 до 360 градусов (x - отрицательный, Y - положительный)");
+    break;
+
+    default:{
+        Console.WriteLine("вы ввели не верное число");
+        break;
+    }
 }

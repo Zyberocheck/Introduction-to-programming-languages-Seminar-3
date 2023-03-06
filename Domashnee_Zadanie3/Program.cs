@@ -14,10 +14,10 @@ if (polin > 9999 && polin < 100000)
     PolinNumberp(polin);
 }
 
-void PolinNumberp(int pa)
+void PolinNumberp(int palin)
 {
-    string palin = Convert.ToString(polin);
-    if(palin[0] == palin[4] && palin[1] == palin[3])
+    string polin = palin.ToString();
+    if(polin[0] == polin[4] && polin[1] == polin[3])
 {
        Console.WriteLine(polin + " палиндром!");
 }else {

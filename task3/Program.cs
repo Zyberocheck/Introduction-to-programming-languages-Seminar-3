@@ -12,3 +12,4 @@ for (int i = 1; i <= a; i++)
 {
     Console.Write(i*i + "\t"); // "\t" не работает
 }
+

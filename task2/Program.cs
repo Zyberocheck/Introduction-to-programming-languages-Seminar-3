@@ -7,6 +7,7 @@
 Console.WriteLine("Введите число от 1 - 4: ");
 int a = Convert.ToInt32(Console.ReadLine());
 
+
 switch(a)
 {
     case 1:

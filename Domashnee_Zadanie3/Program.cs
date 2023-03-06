@@ -9,7 +9,7 @@
 Console.WriteLine("Введите пятизначное число, а я проверю палиндром ли оно: ");
 int polin = Convert.ToInt32(Console.ReadLine());
 
-if (polin > 9999 && polin < 100000);
+if (polin > 9999 && polin < 100000)
 {
     PolinNumberp(polin);
 }

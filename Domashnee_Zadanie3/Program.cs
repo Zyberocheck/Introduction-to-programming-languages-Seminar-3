@@ -6,16 +6,22 @@
 // 23432 -> да
 
 
-int[] polina = new int[5];
-
-Console.WriteLine("Введите число, а я проверю палиндром ли оно: ");
+Console.WriteLine("Введите пятизначное число, а я проверю палиндром ли оно: ");
 int polin = Convert.ToInt32(Console.ReadLine());
-// for (int i = 0; i < polina.Length; i++)
-if (polina[0] == polina[4] && polina[1] == polina[3])
+
+if (polin > 9999 && polin < 100000);
 {
-// Console.WriteLine(polin + " палиндром!");
-Console.WriteLine(polina[0] + polina[4] + polina[1] + polina[3]);
-} else {
-    // Console.WriteLine(polin + " не палиндром!");
+    PolinNumberp(polin);
+}
+
+void PolinNumberp(int pa)
+{
+    string palin = Convert.ToString(polin);
+    if(palin[0] == palin[4] && palin[1] == palin[3])
+{
+       Console.WriteLine(polin + " палиндром!");
+}else {
+     Console.WriteLine(polin + " не палиндром!");
+}
 }
 

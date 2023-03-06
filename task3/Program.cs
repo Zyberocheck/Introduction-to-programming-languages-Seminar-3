@@ -10,5 +10,5 @@ int a = Convert.ToInt32(Console.ReadLine());
 
 for (int i = 1; i <= a; i++)
 {
-    Console.WriteLine(i*i + "\t"); // "\t" не работает
+    Console.Write(i*i + "\t"); // "\t" не работает
 }
